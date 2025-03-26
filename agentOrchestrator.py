@@ -13,7 +13,7 @@ from azure.ai.projects.models import BingGroundingTool,CodeInterpreterTool
 
 token_provider = get_bearer_token_provider(DefaultAzureCredential(), "https://cognitiveservices.azure.com/.default")
 
-os.environ["PROJECT_CONNECTION_STRING"] = "your AI project connection string"
+os.environ["PROJECT_CONNECTION_STRING"] = "eastus.api.azureml.ms;310ab569-9762-484e-8ce9-a650803297ea;rg-KOCH-Agents-Experiments;project-demo-iicf"
 os.environ["BING_CONNECTION_NAME"] = "your bing search connection name"
 
 os.environ["AOI_ENDPOINT"]  = "your azure open ai endpoint connection string"
